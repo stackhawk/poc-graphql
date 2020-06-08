@@ -6,8 +6,8 @@ services:
     build:
       dockerfile: Dockerfile
       context: .
-      args:
-        - server_port=${SERVER_PORT}
+    environment:
+      - SERVER_PORT=${SERVER_PORT}
     ports:
       - ${SERVER_PORT}:${SERVER_PORT}
     entrypoint:

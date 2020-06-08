@@ -1,7 +1,6 @@
 FROM maven:3.6.3-jdk-8-slim
 
-ARG server_port=8080
-ENV SERVER_PORT=${server_port}
+ENV SERVER_PORT=8080
 
 COPY ./app /vuln-graphql
 

@@ -1,3 +1,20 @@
+# Introduction
+
+This is a fork of the project [poc-graphql](https://github.com/righettod/poc-graphql) by [righettod](https://github.com/righettod)
+
+It has been modified to simplify the build and teardown with Docker and a base helper script.
+
+## Docker Build
+
+ - Make sure _docker-compose_ is present on the system.
+ - Set `SERVER_PORT` in the environment and run `docker-compose up` 
+ 
+```bash
+SERVER_PORT=8080
+docker-compose up
+```
+The details of the source project are below.
+
 # Table Of Content
 
 - [Research on GraphQL](#research-on-graphql)
