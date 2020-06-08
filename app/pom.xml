@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eu.righettod</groupId>
-    <artifactId>graphql-poc</artifactId>
+    <artifactId>vuln-graphql</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <description>POC to show common security issues when using GraphQL</description>
     <packaging>jar</packaging>
 
-    <name>graphql-poc</name>
+    <name>vuln-graphql</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -87,7 +87,7 @@
     </dependencies>
 
     <build>
-        <finalName>graphql-poc</finalName>
+        <finalName>vuln-graphql</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
